@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.wrapper {
+    font-family: 'Times New Roman', Times, serif;
+    width: 900px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-li {
+    margin: 0 10px;
+}
+
+.nav-item {
+    color: blue;
+    text-decoration: none;
+}
+
+.nav-li:hover {
+    background-color: aqua;
+    .nav-item {
+        color: red;
+    }
+}
+
+.icon-gr {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    width: 80px;
+    height: 16px;
+}
+
+
+/* main */
+
+.main {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.section-left,
+.section-right {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.section-left-item {
+    margin-left: 0;
+}
+
+.section-left {
+    margin-left: 40px;
+}
+
+.title-section-left {
+    font-size: 46px;
+}
+
+.subtitle {
+    margin-top: 40px;
+}
+
+.price-gr {
+    display: flex;
+    justify-content: space-around;
+}
+
+.price {
+    margin-right: 80px;
+}
+
+.button {
+    height: 50px;
+    width: 140px;
+    background-color: black;
+    color: white;
+    margin-left: 0;
+    left: 80px;
+    border-radius: 5px;
+}
+
+aside {
+    width: 30%;
+    margin-left: 40px;
+}
+
+.main-img {
+    margin-top: 60px;
+}
+
+.main-img:hover {
+    transform: rotate(45deg);
+    transform: matrix3d();
+    margin-left: 20px;
+}
+
+.section-right {
+    margin-top: 40px;
+    width: 80%;
+    justify-content: space-around;
+    margin-left: 40px;
+    bottom: 2px solid gray;
+    box-shadow: 2px gray;
+}
+
+.section-right {
+    margin-left: 40px;
+}
+
+.section-right-item:hover {
+    box-shadow: 2px 2px 2px gray;
+}
+
+.subtitle-right {
+    margin-left: 0;
+}
+
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-item {
+    display: flex;
+}
+
+.footer-text-container {
+    margin-left: 10px;
+}
+
+.footer-item:hover {
+    box-shadow: 2px 2px 2px gray;
+}
+
+h2 {
+    font-weight: bold;
+}
